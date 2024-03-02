@@ -1,0 +1,131 @@
+.container{
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    width: 30%;
+    min-height: 480px;
+}
+
+.container a{
+    color: #333;
+    font-size: 13px;
+    text-decoration: none;
+    margin: 15px 0 10px;
+}
+
+.container button{
+    background-color: #512da8;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.container button.hidden{
+    background-color: transparent;
+    color: #333333da;
+    font-size: 15px;
+    text-decoration: none;
+    font-family:Roboto, sans-serif;
+    text-transform: None;
+}
+
+.container form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    height: 100%;
+}
+
+.container input{
+    background-color: #eee;
+    border: none;
+    margin: 8px 0;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 100%;
+    outline: none;
+}
+
+.form-container{
+    position: absolute;
+    height: 85%;
+    transition: all 0.6s ease-in-out;
+}
+
+.sign-in{
+    width: 90%;
+    z-index: 2;
+    transition: all 0.5s;
+}
+
+.container.active .sign-in{
+    transform: translateY(10%);
+    opacity: 1;
+    z-index: 5;
+    animation: move 0.6s ease-in-out;
+}
+
+.sign-up{
+    width: 90%;
+    opacity: 0;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+.container.active .sign-up{
+    transform: translateY(10%);
+    opacity: 1;
+    z-index: 5;
+    animation: move 0.6s;
+}
+
+.gradientBG {
+    background-color: #4e54c8;
+    background-image: linear-gradient(to bottom, #81C3FF, #FF96FB);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    position: relative; 
+    background-color: rgb(255, 255, 255, 25%);
+    margin-top: 2%;
+    height: 87%;
+    width: 95%;
+    border-radius: 40px;
+}
+
+.box::before {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../../assets/images/rainDrops.png');
+    opacity: 0.45; 
+    background-size: cover;
+    border-radius: 40px;
+}
+
+#logoContainer{
+    border-radius: 0px;
+    overflow:visible;
+    min-height: 20%;
+    margin-top: 5%;
+}
+
+
