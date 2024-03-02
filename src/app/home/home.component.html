@@ -1,9 +1,9 @@
-<div class="backgroundPic">
-    <div class="topContainer">
-        <img src="../../assets/images/logoWhite.png" id="logoContainer">
-    <div class="greet"> <i class="fa-solid fa-cloud fa-bounce"></i> Hey, Good Morning! </div>
-    <div class="logOut"><a [routerLink]="['/signIn']" ><i class="fa-solid fa-right-from-bracket"></i></a></div>
-    </div>
+<div id="backgroundPic">
+        <div class="topContainer">
+          <img src="../../assets/images/logoWhite.png" id="logoContainer">
+          <div class="greet"><i class="fa-solid {{iconClass}} fa-bounce"></i> {{ greeting }}</div>
+          <div class="logOut"><a [routerLink]="['/signIn']"><i class="fa-solid fa-right-from-bracket"></i></a></div>
+        </div>
 
     <div class="container" id="upperContainer">
         <div class="colombo">

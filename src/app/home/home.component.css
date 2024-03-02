@@ -1,4 +1,4 @@
-.backgroundPic{
+#backgroundPic{
     background-image: url('../../assets/images/day.jpg');
     height: 100%;
     position: absolute;
@@ -93,7 +93,7 @@ h3{
     color: #ffffff;
 }
 
-.fa-cloud{
+.fa-bounce{
     margin-right: 10px;
 }
 
