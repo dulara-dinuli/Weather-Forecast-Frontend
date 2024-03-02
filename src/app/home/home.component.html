@@ -1,1 +1,51 @@
-<p>home works!</p>
+<div class="backgroundPic">
+    <div class="topContainer">
+        <img src="../../assets/images/logoWhite.png" id="logoContainer">
+    <div class="greet"> <i class="fa-solid fa-cloud fa-bounce"></i> Hey, Good Morning! </div>
+    <div class="logOut"><a [routerLink]="['/signIn']" ><i class="fa-solid fa-right-from-bracket"></i></a></div>
+    </div>
+
+    <div class="container" id="upperContainer">
+        <div class="colombo">
+
+        </div>
+        <div class="latlong">
+
+        </div>
+    </div>
+    
+    <div class="container bottomContainer">
+        <h3>Weather forecast for the coming days</h3>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            @if(expanded){
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col">Item 1</div>
+                <div class="col">Item 2</div>
+                <div class="col">Item 3</div>
+                <div class="col">Item 4</div>
+                <div class="col">Item 5</div>
+                <div class="col">Item 6</div>
+                <div class="col">Item 7</div>
+              </div>
+            </div>
+        } @else {
+            <div class="carousel-item active">
+                <div class="row">
+                  <div class="col">Item 1</div>
+                  <div class="col">Item 2</div>
+                  <div class="col">Item 3</div>
+                </div>
+              </div>
+        }
+          </div>
+        </div>
+        <div class="button">
+            <button id="view" (click)="expandCarousel()">View More</button>
+        </div>
+      </div>
+      
+
+
+</div>

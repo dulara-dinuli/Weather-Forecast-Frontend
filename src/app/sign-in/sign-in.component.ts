@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
@@ -10,7 +10,7 @@ import { CommonModule } from '@angular/common';
   templateUrl: './sign-in.component.html',
   styleUrl: './sign-in.component.css'
 })
-export class SignInComponent implements OnInit{
+export class SignInComponent{
 
   
   isSignDivVisible: boolean = false;
@@ -18,12 +18,6 @@ export class SignInComponent implements OnInit{
   loginObj: LoginModel = new LoginModel();
 
   constructor(private router: Router) {}
-
-  ngOnInit(): void {
-    if (typeof window !== 'undefined' && window.localStorage) {
-      localStorage.clear();
-    }
-  }
 
   toggleSignDiv() {
     this.isSignDivVisible = !this.isSignDivVisible;
