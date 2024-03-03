@@ -32,7 +32,6 @@
     display: flex;
     height: 35%;
     margin-top: 0.5%;
-    margin-bottom: 0.5%;
     max-width: 95%; 
   }
   
@@ -170,8 +169,7 @@ button{
     padding-top: 10px;
     position: absolute;
     background-image: linear-gradient(to bottom, #ffffff73, #ffffff00);
-
-    height: 45%;
+    margin-top: 0.5%;
     bottom: 40px;
 }
 
