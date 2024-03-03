@@ -32,11 +32,11 @@ The OpenWeather API is a service that provides access to weather data worldwide.
 
 <h3>Previews:</h3>
 
-UI/ UX Design </br>
+UI/ UX Design (Draft) </br>
 <img src= "https://github.com/dulara-dinuli/Weather-Forecast-Frontend/blob/fe19debee1da511d6f2cb5d77adef28e3a55d955/ScreenShots/UIUX.png"> </br>
 
 Weather Forecast (Demo) </br>
-<img src= ""> </br>
+<img src= "https://github.com/dulara-dinuli/Weather-Forecast-Frontend/blob/7b8a2983f7151458ec25ba9f1bb8806e24a0ac7a/ScreenShots/Demo.gif"> </br>
 
 User Sign In </br>
 <img src= "https://github.com/dulara-dinuli/Weather-Forecast-Frontend/blob/fe19debee1da511d6f2cb5d77adef28e3a55d955/ScreenShots/SignIn.png"> </br>
