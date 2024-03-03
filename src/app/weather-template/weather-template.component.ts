@@ -1,19 +1,21 @@
 import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 
 @Component({
-  selector: 'app-current-weather',
+  selector: 'app-weather-template',
   standalone: true,
   imports: [],
-  templateUrl: './current-weather.component.html',
-  styleUrl: './current-weather.component.css'
+  templateUrl: './weather-template.component.html',
+  styleUrl: './weather-template.component.css'
 })
-export class CurrentWeatherComponent implements OnInit, OnChanges{
+export class WeatherTemplateComponent implements OnInit, OnChanges{
   WeatherData:any;
   @Input() lati: number | null = null;
   @Input() long: number | null = null;
+  @Input() day: number | number = 0;
 
   latitude: number| null = null;
   longitude: number| null = null;
+  dayNumber: number| number = 0;
 
   constructor() {}
 
@@ -36,6 +38,7 @@ export class CurrentWeatherComponent implements OnInit, OnChanges{
   parseData(){
     this.latitude = this.lati;
     this.longitude = this.long;
+    this.dayNumber = this.day;
   }
 
   getWeatherData(){
@@ -47,14 +50,14 @@ export class CurrentWeatherComponent implements OnInit, OnChanges{
 
   setWeatherData(data: any){
     this.WeatherData = data;
-    let sunsetTime = new Date(this.WeatherData.current.sunset * 1000);
+    let sunsetTime = new Date(this.WeatherData.daily[this.dayNumber].sunset * 1000);
     this.WeatherData.sunset_time = sunsetTime.toLocaleTimeString();
     let currentDate = new Date();
     this.WeatherData.isDay = (currentDate.getTime() < sunsetTime.getTime());
-    this.WeatherData.temp_celcius = (this.WeatherData.current.temp - 273.15).toFixed(0);
-    this.WeatherData.status = (this.WeatherData.current.weather[0].main);
-    this.WeatherData.temp_feels_like = (this.WeatherData.current.feels_like - 273.15).toFixed(0);
+    this.WeatherData.temp_celcius = (this.WeatherData.daily[this.dayNumber].temp.day - 273.15).toFixed(0);
+    this.WeatherData.status = (this.WeatherData.daily[this.dayNumber].summary);
+    this.WeatherData.temp_feels_like = (this.WeatherData.daily[this.dayNumber].feels_like.day - 273.15).toFixed(0);
     this.WeatherData.name = (this.WeatherData.timezone);
-    this.WeatherData.humidity =(this.WeatherData.current.humidity);
+    this.WeatherData.humidity =(this.WeatherData.daily[this.dayNumber].humidity);
   }
 }

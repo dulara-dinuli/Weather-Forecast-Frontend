@@ -36,13 +36,39 @@
   }
   
 .latlong {
+    display: flex;
     flex: 1;
     margin-left: 10px;
-    background-color: rgba(255, 255, 255, 0.712);
+    /* background-color: rgba(255, 255, 255, 0.712); */
     box-shadow: 0px 5px 10px rgba(0, 3, 45, 0.338);
     border-radius: 15px;
     width: 60%;
   }
+
+  .latlongLeft, .latlongRight{
+    border-radius: 0%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .latlongLeft{
+    flex: 1;
+  }
+
+  .latlongRight{
+    flex: 1.8;
+  }
+
+  form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    height: 100%;
+}
 
 .colombo{
     /* background-color: rgba(255, 255, 255, 0.712); */
@@ -103,6 +129,29 @@ h3{
     align-items: center;
   }
 
+#searchBtn{
+    background-color: #ffffff3f;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 10px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    font-weight: 600;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+input{
+    background-color: #eee;
+    border: none;
+    margin: 8px 0;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 100%;
+    outline: none;
+}
+
 button{
     background-color: transparent;
     color: #0b001b;
@@ -125,5 +174,13 @@ button{
 
 #view{
     font-size: 15px;
-    font-weight: 20px;
+    font-weight: 550;
 }
+
+.dayNumber{
+    font-weight: 500;
+    text-align: center;
+    padding-left: 10px;
+}
+
+

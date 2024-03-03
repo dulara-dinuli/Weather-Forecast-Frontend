@@ -16,6 +16,10 @@
     justify-content: center;
     align-items: center;
   }
+
+  .leftContent{
+    padding-left: 5%;
+  }
   
   .weatherWidgetRow {
     display: block;
