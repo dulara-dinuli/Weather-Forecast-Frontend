@@ -1,7 +1,7 @@
 # Weather Forecasting Application ⛈️📃
 Demo Web Application:- <a href=""> Watch Me 👀 </a>
 
-<b>This frontend was developed to show the weather forecasting details using Open Weather API. This application is currently hosted on Cyclic.</b>
+<b>This frontend was developed to show the weather forecasting details using Open Weather API.</b>
 
 The OpenWeather API is a service that provides access to weather data worldwide. It offers current weather conditions, forecasts, and historical data through a simple HTTP interface, allowing developers to integrate weather information into their applications easily. With endpoints for various weather parameters like temperature, humidity, wind speed, and more, it's a versatile tool for creating weather-related features in websites, mobile apps, and other software projects.
 
@@ -33,25 +33,31 @@ The OpenWeather API is a service that provides access to weather data worldwide.
 <h3>Previews:</h3>
 
 UI/ UX Design </br>
-<img src= ""> </br>
+<img src= "https://github.com/dulara-dinuli/Weather-Forecast-Frontend/blob/fe19debee1da511d6f2cb5d77adef28e3a55d955/ScreenShots/UIUX.png"> </br>
 
 Weather Forecast (Demo) </br>
 <img src= ""> </br>
 
 User Sign In </br>
-<img src= ""> </br>
+<img src= "https://github.com/dulara-dinuli/Weather-Forecast-Frontend/blob/fe19debee1da511d6f2cb5d77adef28e3a55d955/ScreenShots/SignIn.png"> </br>
 
 User Sign Up </br>
-<img src= ""> </br>
+<img src= "https://github.com/dulara-dinuli/Weather-Forecast-Frontend/blob/fe19debee1da511d6f2cb5d77adef28e3a55d955/ScreenShots/SIgnUp.png"> </br>
 
-Home Page </br>
-<img src= ""> </br>
+Home Page (Morning - Between 5.00 am and 11.59 am) </br>
+<img src= "https://github.com/dulara-dinuli/Weather-Forecast-Frontend/blob/fe19debee1da511d6f2cb5d77adef28e3a55d955/ScreenShots/Home(Morning).png"> </br>
+
+Home Page (Evening - Between 12.00 pm and 6.59 pm) </br>
+<img src= "https://github.com/dulara-dinuli/Weather-Forecast-Frontend/blob/fe19debee1da511d6f2cb5d77adef28e3a55d955/ScreenShots/Home(Eve).png"> </br>
+
+Home Page (Night - Between 7.00 pm and 4.59 am) </br>
+<img src= "https://github.com/dulara-dinuli/Weather-Forecast-Frontend/blob/fe19debee1da511d6f2cb5d77adef28e3a55d955/ScreenShots/Home(Night).png"> </br>
 
 Getting Weather Forecast Deta (Using Latitude and Longitude)</br>
-<img src= ""> </br>
+<img src= "https://github.com/dulara-dinuli/Weather-Forecast-Frontend/blob/fe19debee1da511d6f2cb5d77adef28e3a55d955/ScreenShots/WeatherForecast(latitude%26longitude).png"> </br>
 
 Home Page (After View More)</br>
-<img src= ""> </br>
+<img src= "https://github.com/dulara-dinuli/Weather-Forecast-Frontend/blob/fe19debee1da511d6f2cb5d77adef28e3a55d955/ScreenShots/Home(ViewMore).png"> </br>
 
 
 
