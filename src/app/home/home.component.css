@@ -170,6 +170,7 @@ button{
     position: absolute;
     background-image: linear-gradient(to bottom, #ffffff73, #ffffff00);
     margin-top: 0.5%;
+    height: 35%;
     bottom: 40px;
 }
 
