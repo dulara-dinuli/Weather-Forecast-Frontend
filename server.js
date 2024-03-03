@@ -4,7 +4,7 @@ let app = express();
 app.use(express.static(__dirname+'/dist/weather-forecast-frontend'));
 
 app.get('/*', (req, resp)=>{
-    resp.sendFile(__dirname+'/dist/weather-forecast-frontend/browser/index.html');
+    resp.sendFile(__dirname+'/dist/weather-forecast-frontend/index.html');
 });
 
 
