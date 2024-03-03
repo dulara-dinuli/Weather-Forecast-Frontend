@@ -1,27 +1,57 @@
-# WeatherForecastFrontend
+# Weather Forecasting Application ⛈️📃
+Demo Web Application:- <a href=""> Watch Me 👀 </a>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8.
+<b>This frontend was developed to show the weather forecasting details using Open Weather API. This application is currently hosted on Cyclic.</b>
 
-## Development server
+The OpenWeather API is a service that provides access to weather data worldwide. It offers current weather conditions, forecasts, and historical data through a simple HTTP interface, allowing developers to integrate weather information into their applications easily. With endpoints for various weather parameters like temperature, humidity, wind speed, and more, it's a versatile tool for creating weather-related features in websites, mobile apps, and other software projects.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+<h3>Technologies:</h3>
+<ul>
+   <li>Angular (17.2.2)</li>
+</ul>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<h3>External APIs:</h3>
+<ul>
+   <li>Open Weather - To get weather data</li>
+</ul>
 
-## Build
+<h3>Libraries:</h3>
+<ul>
+   <li>Bootstrap - For Styling</li>
+   <li>Font Awesome - As an Icon Toolkit</li>
+</ul>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<h3>IDEs and Applications:</h3>
+<ul>
+  <li>Visual Studio Code</li>
+</ul>
 
-## Running unit tests
+#
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<h3>Previews:</h3>
 
-## Running end-to-end tests
+UI/ UX Design </br>
+<img src= ""> </br>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Weather Forecast (Demo) </br>
+<img src= ""> </br>
 
-## Further help
+User Sign In </br>
+<img src= ""> </br>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+User Sign Up </br>
+<img src= ""> </br>
+
+Home Page </br>
+<img src= ""> </br>
+
+Getting Weather Forecast Deta (Using Latitude and Longitude)</br>
+<img src= ""> </br>
+
+Home Page (After View More)</br>
+<img src= ""> </br>
+
+
+
