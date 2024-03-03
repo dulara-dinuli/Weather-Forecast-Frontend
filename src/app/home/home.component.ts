@@ -47,7 +47,7 @@ export class HomeComponent implements OnInit{
 
   setGreetingAndBackground(): void {
     const currentTime = new Date().getHours();
-    // const currentTime = 25;
+    // const currentTime = 6;
     if (currentTime >= 5 && currentTime < 12) {
       this.greeting = 'Hey, Good Morning !';
       this.backgroundUrl = '../../assets/images/day.jpg';

@@ -42,7 +42,7 @@ export class WeatherTemplateComponent implements OnInit, OnChanges{
   }
 
   getWeatherData(){
-    const apiUrl = `https://api.openweathermap.org/data/3.0/onecall?lat=${this.lati}&lon=${this.long}&exclude=hourly,minutely&appid=0e883e6804a0c01f9d8410ffd05b4976`;
+    const apiUrl = `https://api.openweathermap.org/data/3.0/onecall?lat=${this.lati}&lon=${this.long}&exclude=hourly,minutely&appid=b59bdb0f1f92558d4d4e9d9d0989e7cd`;
     fetch(apiUrl)
     .then(response=>response.json())
     .then(data=>{this.setWeatherData(data);})
