@@ -21,7 +21,7 @@
     margin-top: 1.5%;
     margin-right: 2%;
     width: 10%;
-    font-size:2rem;
+    font-size:1.5rem;
 }
 
 .fa-right-from-bracket{
@@ -55,6 +55,7 @@
 
   .latlongLeft{
     flex: 1;
+    margin-top: 2px;
   }
 
   .latlongRight{
@@ -66,8 +67,31 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0 40px;
-    height: 100%;
+    padding: 0 31px;
+    height: 100%
+}
+
+input{
+    background-color: #eee;
+    border: none;
+    margin: 6px 0;
+    padding: 5px 15px;
+    font-size: 10px;
+    border-radius: 6px;
+    width: 100%;
+    outline: none;
+}
+
+#searchBtn{
+    background-color: #ffffff3f;
+    color: #fff;
+    font-size: 17px;
+    padding: 7px 9px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    font-weight: 600;
+    margin-top: 10px;
+    cursor: pointer;
 }
 
 .colombo{
@@ -81,10 +105,10 @@
     position: relative;
     background-color: rgba(255, 255, 255, 0.788);
     margin-left: 10px;
-    height: 280px;
-    border-radius: 25px;
+    height: 210px;
+    border-radius: 20px;
     padding: 1%;
-    padding-top: 0.7%;
+    padding-top: 0.5%;
 }
 
 .carousel-item{
@@ -102,8 +126,9 @@
 h3{
     color: #130032cb;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 18px;
     font-weight: 450;
+    margin-bottom: 0.5%;
 }
 
 .topContainer{
@@ -115,7 +140,7 @@ h3{
     justify-content: center;
     align-items: center;
     width: 100%;
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 500;
     color: #ffffff;
 }
@@ -130,29 +155,6 @@ h3{
     align-items: center;
   }
 
-#searchBtn{
-    background-color: #ffffff3f;
-    color: #fff;
-    font-size: 24px;
-    padding: 10px 10px;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 8px;
-    font-weight: 600;
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-input{
-    background-color: #eee;
-    border: none;
-    margin: 8px 0;
-    padding: 10px 15px;
-    font-size: 13px;
-    border-radius: 8px;
-    width: 100%;
-    outline: none;
-}
-
 button{
     background-color: transparent;
     color: #0b001b;
@@ -161,28 +163,29 @@ button{
     border: 1px solid transparent;
     border-radius: 8px;
     text-transform: uppercase;
-    margin-top: 10px;
     cursor: pointer;
 }
 
 .bottomContainer{
-    padding-top: 10px;
+    padding-top: 5px;
     position: absolute;
     background-image: linear-gradient(to bottom, #ffffff73, #ffffff00);
-    margin-top: 0.5%;
-    bottom: 40px;
+    margin-top: 30%;
+    bottom: 32px;
 }
 
 #view{
-    font-size: 15px;
+    font-size: 11px;
     font-weight: 550;
 }
 
 .dayNumber{
     font-weight: 500;
+    font-size: 11px;
     text-align: center;
     padding-left: 10px;
     margin-top: 0%;
+    margin-bottom: 2px;
 }
 
 

@@ -4,8 +4,9 @@
     justify-content: center;
     position: relative;
     overflow: hidden;
-    width: 30%;
-    min-height: 480px;
+    width: 30.65%;
+    min-height: 400px;
+    --bs-gutter-x:0rem;
 }
 
 .container a{
@@ -62,7 +63,7 @@
     position: absolute;
     height: 50%;
     transition: all 0.6s ease-in-out;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 .sign-in{
@@ -123,11 +124,13 @@
 }
 
 #logoContainer{
+    display: flex;
+    justify-content: center;
     border-radius: 0px;
     overflow:visible;
     min-height: 15%;
     margin-top: 5%;
-    padding-left: 1.5%;
+    /* padding-left: 1.5%; */
     align-items: center;
 }
 
