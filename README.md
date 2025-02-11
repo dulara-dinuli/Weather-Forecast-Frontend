@@ -1,7 +1,7 @@
 # Weather Forecasting Application ⛈️📃
-Demo Web Application:- <a href="https://weather-forecast-application-aa968c955c3e.herokuapp.com/"> Watch Me 👀 </a>
+Demo Web Application:- <a href="https://dulara-dinuli.github.io/Weather-Forecast-Frontend/home"> Watch Me 👀 </a>
 
-<b>This frontend was developed to show the weather forecasting details using Open Weather API. This application is currently hosted on Heroku.</b>
+<b>This frontend was developed to show the weather forecasting details using Open Weather API.</b>
 
 The OpenWeather API is a service that provides access to weather data worldwide. It offers current weather conditions, forecasts, and historical data through a simple HTTP interface, allowing developers to integrate weather information into their applications easily. With endpoints for various weather parameters like temperature, humidity, wind speed, and more, it's a versatile tool for creating weather-related features in websites, mobile apps, and other software projects.
 
