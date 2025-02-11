@@ -1,5 +1,5 @@
 # Weather Forecasting Application ⛈️📃
-Demo Web Application:- <a href="https://dulara-dinuli.github.io/Weather-Forecast-Frontend/home"> Watch Me 👀 </a>
+Demo Web Application:- <a href="https://dulara-dinuli.github.io/Weather-Forecast-Frontend/"> Watch Me 👀 </a>
 
 <b>This frontend was developed to show the weather forecasting details using Open Weather API.</b>
 
