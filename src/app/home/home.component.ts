@@ -63,7 +63,7 @@ export class HomeComponent implements OnInit{
       this.backgroundUrl = '../../assets/images/night.jpg';
       this.iconClass = 'fa-moon';
       this.theam = 'light';
-      
+
 
     }
     this.updateBackground();
@@ -89,7 +89,7 @@ export class HomeComponent implements OnInit{
   }
 
   getWeatherDataWeek(){
-    const apiUrl = `https://api.openweathermap.org/data/3.0/onecall?lat=${this.latitude}&lon=${this.longitude}&exclude=hourly,minutely&appid=0e883e6804a0c01f9d8410ffd05b4976`;
+    const apiUrl = `https://api.openweathermap.org/data/3.0/onecall?lat=${this.latitude}&lon=${this.longitude}&exclude=hourly,minutely&appid=b59bdb0f1f92558d4d4e9d9d0989e7cd`;
     fetch(apiUrl)
     .then(response=>response.json())
     .then(data=>{this.setWeatherDataWeek(data);})
@@ -109,6 +109,6 @@ export class HomeComponent implements OnInit{
   }
 
   search() {
-    this.getWeatherDataWeek(); 
+    this.getWeatherDataWeek();
   }
 }
